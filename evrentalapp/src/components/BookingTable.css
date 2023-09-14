@@ -1,0 +1,48 @@
+/* BookingTable.css */
+
+/* Style for the surrounding div */
+.booking-details {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style for the h2 heading */
+  .booking-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the table */
+  .booking-details table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+  }
+  
+  /* Style for table headers (th) */
+  .booking-details th {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Style for table data cells (td) */
+  .booking-details td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Style for table rows (alternate background color) */
+  .booking-details tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Hover effect for table rows */
+  .booking-details tbody tr:hover {
+    background-color: #ddd;
+  }
+  
