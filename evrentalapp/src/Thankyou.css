@@ -1,0 +1,22 @@
+/* ThankYou.css */
+.thank-you-container {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .thank-you-container h2 {
+    color: #333;
+  }
+  
+  .thank-you-container p {
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  /* You can add more styling as needed */
+  
