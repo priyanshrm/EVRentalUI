@@ -10,6 +10,9 @@ import Login from "./Login";
 import Register from "./Register";
 import PrivateRoute from "./PrivateRoute";
 import ThankYou from "./Thankyou";
+import Contact from "./components/pages/Contact";
+import Team from "./components/pages/Team";
+import Mission from "./components/pages/Mission";
 
 function App() {
   return (
@@ -20,6 +23,9 @@ function App() {
           <Route path="/" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact></Contact>}/>
+          <Route path="/team" element={<Team></Team>}/>
+          <Route path="/mission" element={<Mission></Mission>}/>
           {/* Wrap your PrivateRoute components inside a Route */}
           <Route
             path="/dashboard"
