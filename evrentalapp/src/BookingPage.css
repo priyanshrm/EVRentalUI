@@ -1,0 +1,24 @@
+/* CSS classes */
+.vehicle-details-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .vehicle-details {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .vehicle-details p {
+    margin: 5px 0;
+  }
+  
+  .loading-message {
+    font-size: 18px;
+    color: #777;
+  }
+  

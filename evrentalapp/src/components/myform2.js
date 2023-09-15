@@ -1,54 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-
-const styles = {
-  container: {
-    maxWidth: "400px",
-    margin: "0 auto",
-    padding: "20px",
-    backgroundColor: "#f4f4f4",
-    border: "1px solid #ccc",
-    borderRadius: "5px",
-  },
-  formGroup: {
-    marginBottom: "15px",
-  },
-  label: {
-    display: "block",
-    marginBottom: "5px",
-    fontWeight: "bold",
-  },
-  input: {
-    width: "100%",
-    padding: "10px",
-    border: "1px solid #ccc",
-    borderRadius: "4px",
-    boxSizing: "border-box",
-  },
-  primaryButton: {
-    backgroundColor: "#007bff",
-    color: "#fff",
-    padding: "10px 20px",
-    border: "none",
-    borderRadius: "4px",
-    cursor: "pointer",
-  },
-  secondaryButton: {
-    backgroundColor: "#ccc",
-    color: "#fff",
-    padding: "10px 20px",
-    border: "none",
-    borderRadius: "4px",
-    cursor: "pointer",
-    marginLeft: "10px",
-  },
-  hr: {
-    marginTop: "20px",
-    marginBottom: "20px",
-    border: "0",
-    borderTop: "1px solid #ccc",
-  },
-};
+import "./myform2.css";
 
 class AddBooking extends React.Component {
   constructor() {
@@ -198,61 +150,61 @@ class AddBooking extends React.Component {
       //       <input type="button" value="Reset" className="btn btn-secondary" />
       //     </form>
       //   </div>
-      <div style={styles.container}>
+      <div class="container">
         <h2>Booking Entry</h2>
-        <hr style={styles.hr} />
+        <hr class="hr" />
         <form>
-          <div style={styles.formGroup}>
-            <label style={styles.label}>User ID</label>
+          <div class="formGroup">
+            <label class="label">User ID</label>
             <input
               type="text"
               value={this.state.userId}
-              style={styles.input}
+              class="input"
               onChange={this.setUserId}
             />
           </div>
-          <div style={styles.formGroup}>
-            <label style={styles.label}>Vehicle ID</label>
+          <div class="formGroup">
+            <label class="label">Vehicle ID</label>
             <input
               type="text"
               value={this.state.vehicleId}
-              style={styles.input}
+              class="input"
               onChange={this.setVehicleId}
             />
           </div>
-          <div style={styles.formGroup}>
-            <label style={styles.label}>Start Time</label>
+          <div class="formGroup">
+            <label class="label">Start Time</label>
             <input
               type="datetime-local"
               value={this.state.startTime}
-              style={styles.input}
+              class="input"
               onChange={this.setStartTime}
             />
           </div>
-          <div style={styles.formGroup}>
-            <label style={styles.label}>End Time</label>
+          <div class="formGroup">
+            <label class="label">End Time</label>
             <input
               type="datetime-local"
-              value={this.state.endtime}
-              style={styles.input}
+              value={this.state.endTime}
+              class="input"
               onChange={this.setEndTime}
             />
           </div>
-          <div style={styles.formGroup}>
-            <label style={styles.label}>Total Cost</label>
+          <div class="formGroup">
+            <label class="label">Total Cost</label>
             <input
               type="text"
               value={this.state.totalCost}
-              style={styles.input}
+              class="input"
               onChange={this.setTotalCost}
             />
           </div>
-          <div style={styles.formGroup}>
-            <label style={styles.label}>Status</label>
+          <div class="formGroup">
+            <label class="label">Status</label>
             <input
               type="text"
               value={this.state.status}
-              style={styles.input}
+              class="input"
               onChange={this.setStatus}
             />
           </div>
@@ -260,9 +212,9 @@ class AddBooking extends React.Component {
             type="button"
             onClick={this.saveData}
             value="Save"
-            style={styles.primaryButton}
+            class="primaryButton"
           />
-          <input type="button" value="Reset" style={styles.secondaryButton} />
+          <input type="button" value="Reset" class="secondaryButton" />
         </form>
       </div>
     );

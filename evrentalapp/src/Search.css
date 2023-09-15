@@ -1,0 +1,62 @@
+/* Style for the container div */
+.container {
+    text-align: center;
+  }
+  
+  /* Style for the "Fetch Data" button */
+  .fetch-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the table container div */
+  .table-container {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style for the table */
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+  }
+  
+  /* Style for table headers */
+  .table-header th {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  /* Style for table rows */
+  .table-row:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .table-row:hover {
+    background-color: #ddd;
+  }
+  
+  /* Style for table cells */
+  .table-cell {
+    padding: 8px;
+  }
+  
+  /* Style for the "Click the button to fetch data" message */
+  .fetch-message {
+    font-size: 18px;
+    color: #777;
+  }
+  

@@ -1,0 +1,209 @@
+/* Styles for the Booking Section */
+.book-section {
+    position: relative;
+    background-color: #f5f5f5;
+    padding: 50px 0;
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 100;
+    display: none;
+    transition: opacity 0.3s;
+  }
+  
+  .active-modal {
+    display: block;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .book-content {
+    text-align: center;
+  }
+  
+  .book-content__box {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Additional styles for form elements */
+  .error-message,
+  .booking-done {
+    color: #ff0000;
+    display: none;
+    margin-bottom: 10px;
+  }
+  
+  .box-form__car-type,
+  .box-form__car-time {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  select,
+  input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Styles for the Booking Modal */
+  .booking-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    z-index: 101;
+    display: none;
+  }
+  
+  .booking-modal__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .booking-modal__title h2 {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .booking-modal__message h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .booking-modal__car-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .dates-div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .booking-modal__car-info__dates,
+  .booking-modal__car-info__model {
+    width: 48%;
+    margin-bottom: 10px;
+  }
+  
+  .booking-modal__car-info__dates h5,
+  .booking-modal__car-info__model h5 {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .info-form {
+    margin-top: 20px;
+  }
+  
+  .info-form__2col {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .info-form__1col {
+    width: 100%;
+  }
+  
+  .info-form input[type="text"],
+  .info-form input[type="tel"],
+  .info-form input[type="number"],
+  .info-form input[type="email"],
+  .info-form input[type="date"],
+  .info-form input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .info-form__checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .info-form__checkbox input {
+    margin-right: 10px;
+  }
+  
+  .reserve-button button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Styles for error messages */
+  .error-modal {
+    color: #ff0000;
+    display: none;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .booking-modal {
+      width: 90%;
+      padding: 10px;
+    }
+  }
+  
