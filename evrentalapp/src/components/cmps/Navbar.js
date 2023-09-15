@@ -1,6 +1,9 @@
 import { Link, useNavigate } from "react-router-dom";
 import Logo from "../assets/images/bmw.jpeg";
 import "../assets/styles/navbar.css";
+import Contact from "../pages/Contact";
+import Mission from "../pages/Mission";
+
 function Navbar() {
   const navigate = useNavigate();
   var hasToken = localStorage.getItem("token");
